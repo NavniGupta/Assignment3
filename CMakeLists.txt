@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project(a2-ece650)
+set (CMAKE_CXX_FLAGS "-std=c++11 -Wall ${CMAKE_CXX_FLAGS}")
+add_executable(ece650-a3 ece650-a3.cpp )
+add_executable(rgen rgen.cpp )
+add_executable(a2-ece650 a2-ece650.cpp )
